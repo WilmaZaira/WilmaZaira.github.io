@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Creative CV</title>
-    <meta name="description" content="Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skils and experience."/>
+    <title>Lic. Zaira Figueroa - CV</title>
+    <meta name="description" content="Curriculum Vitae de la Lic. Zaira Figueroa"/>
+    <meta property="og:site_name" content="Licenciada en Diseño Gráfico">
+    <meta property="og:title" content="Zaira Figueroa" />
+    <meta property="og:description" content="Curriculum Vitae de la Lic. Zaira Figueroa" />
+    <meta property="og:image" itemprop="image" content="images/ZAIRA_CURRICULUM_page-0001.jpg">
+    <meta property="og:type" content="website" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/aos.css" rel="stylesheet">
