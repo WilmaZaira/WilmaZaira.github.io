@@ -5163,7 +5163,7 @@ Created using IcoMoon - icomoon.io
 
 .page-header .container > .content-center {
   position: absolute;
-  top: 50%;
+  top: 52%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -7255,6 +7255,10 @@ Created using IcoMoon - icomoon.io
   color: #3b5998;
 }
 
+.cc-linkedin:hover i {
+  color: #0e76a8;
+}
+
 .cc-twitter:hover i {
   color: #1da1f2;
 }
@@ -7264,7 +7268,11 @@ Created using IcoMoon - icomoon.io
 }
 
 .cc-instagram:hover i {
-  color: #405de6;
+  color: #d6249f;
+}
+
+.cc-whatsapp:hover i {
+  color: #25D366;
 }
 
 /* Credit Style */
