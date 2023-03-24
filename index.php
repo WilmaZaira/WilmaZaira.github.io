@@ -15,6 +15,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/aos.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
   </head>
   <body id="top">
@@ -54,16 +55,16 @@
       <div class="section">
         <div class="container">
           <div class="button-container">
-            <a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Sigueme en Facebook">
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.facebook.com/zaira.figueroa.12" rel="tooltip" title="Sigueme en Facebook">
               <i class="fa fa-facebook"></i>
             </a>
-            <a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Sigueme en Instagram">
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://instagram.com/dialok" rel="tooltip" title="Sigueme en Instagram">
               <i class="fa fa-instagram"></i>
             </a>
             <a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Sigueme en Linkedin">
               <i class="fa fa-linkedin"></i>
             </a>
-            <a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Enviame un WhatsApp">
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://wa.me/4434694110" rel="tooltip" title="Enviame un WhatsApp">
               <i class="fa fa-whatsapp"></i>
             </a>
           </div>
@@ -74,13 +75,13 @@
 </div>
 <div class="section" id="about">
   <div class="container">
-    <div class="card" data-aos="fade-up" data-aos-offset="10">
+    <div class="card" data-aos="zoom-in" data-aos-offset="10">
       <div class="row">
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
-            <div class="h4 mt-0 title">Acerca de mí</div>
-            <p>Hello! I am Anthony Barnett. Web Developer, Graphic Designer and Photographer.</p>
-            <p>Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skills and experience. <a href="https://templateflip.com/templates/creative-cv/" target="_blank">Learn More</a></p>
+          <div class="h4 mt-0 title">Acerca de mí</div>
+            <p style='text-align: justify;'>Soy una diseñadora gráfica entusiasta enfocada en fortalecer la imagen y comunicación de las empresas por medio de material y herramientas que permitan plasmar las fortalezas y direcciones hacia su público ideal, propiciando una mejor atención a sus clientes y una evolución constante que permita mantener la competitividad y diferenciación en el mercado.</p>
+            <p style='text-align: justify;'>Con el uso de mis conocimientos y usando herramientas de ultima generación me gusta promover ideas nuevas para contenido y diseño multimedia que vayan dirigidas a la imagen empresarial deseada.</p>
           </div>
         </div>
         <div class="col-lg-6 col-md-12">
@@ -92,15 +93,15 @@
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Correo:</strong></div>
-              <div class="col-sm-8">dialok@hotmail.com</div>
+              <div class="col-sm-8"><a href="mailto:dialok@hotmail.com" target="_blank">dialok@hotmail.com</a></div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Teléfono:</strong></div>
-              <div class="col-sm-8">(443) 313 61 65</div>
+              <div class="col-sm-8"><a href="tel:4433136165" target="_blank">(443) 313 61 65</a></div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Celular:</strong></div>
-              <div class="col-sm-8">443 469 4110</div>
+              <div class="col-sm-8"><a href="tel:4434694110" target="_blank">443 469 4110</a></div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Nacionalidad:</strong></div>
@@ -114,53 +115,152 @@
 </div>
 <div class="section" id="skill">
   <div class="container">
-    <div class="h4 text-center mb-4 title">Habilidades profesionales</div>
-    <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+    <div class="h4 text-center mb-4 title">Habilidades</div>
+    <div class="card" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
       <div class="card-body">
         <div class="row">
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Ilustrador</span>
+            <div class="progress-container progress-primary"><span class="progress-badge">Liderazgo</span>
               <div class="progress">
                 <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
               </div>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Photoshop</span>
+            <div class="progress-container progress-primary"><span class="progress-badge">Autodidacta</span>
               <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div><span class="progress-value">90%</span>
               </div>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">InDesign</span>
+            <div class="progress-container progress-primary"><span class="progress-badge">Trabajo bajo presión</span>
               <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
               </div>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Flash</span>
+            <div class="progress-container progress-primary"><span class="progress-badge">Solución de problemas</span>
               <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div><span class="progress-value">90%</span>
               </div>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Dreamviewer</span>
+            <div class="progress-container progress-primary"><span class="progress-badge">Organizada</span>
               <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div><span class="progress-value">95%</span>
               </div>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Wordpress</span>
+            <div class="progress-container progress-primary"><span class="progress-badge">Ingles</span>
               <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">70%</span>
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div><span class="progress-value">50%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="h4 text-center mb-4 title">Conocimientos y herramientas</div>
+    <div class="card" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
+      <div class="card-body">
+        <div class="row more-skill text-center">
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <div class="chart" data-percent="85" data-color="f48fb1">
+              <span class="percent"></span>
+              <div class="chart-text">
+                <span>Ilustrador</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <div class="chart" data-percent="80" data-color="f48fb1">
+              <span class="percent"></span>
+              <div class="chart-text">
+                <span>Photoshop</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <div class="chart" data-percent="90" data-color="f48fb1">
+              <span class="percent"></span>
+              <div class="chart-text">
+                <span>Indesign</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <div class="chart" data-percent="45" data-color="f48fb1">
+              <span class="percent"></span>
+              <div class="chart-text">
+                <span>Premiere</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <div class="chart" data-percent="80" data-color="f48fb1">
+              <span class="percent"></span>
+              <div class="chart-text">
+                <span>Acrobat PRO</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <div class="chart" data-percent="75" data-color="f48fb1">
+              <span class="percent"></span>
+              <div class="chart-text">
+                <span>Wordpress</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row more-skill text-center">
+          <div class="col-xs-12 col-sm-4 col-md-2 col-md-offset-1 col-sm-offset-2">
+            <div class="chart" data-percent="90" data-color="f48fb1">
+              <span class="percent"></span>
+              <div class="chart-text">
+                <span>CMS's Inmobiliarios</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <div class="chart" data-percent="80" data-color="f48fb1">
+              <span class="percent"></span>
+              <div class="chart-text">
+                <span>Shopify</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <div class="chart" data-percent="70" data-color="f48fb1">
+              <span class="percent"></span>
+              <div class="chart-text">
+                <span>Campañas en Redes</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <div class="chart" data-percent="75" data-color="f48fb1">
+              <span class="percent"></span>
+              <div class="chart-text">
+                <span>Metricas de posicionamiento en paginas (SEO)</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <div class="chart" data-percent="80" data-color="f48fb1">
+              <span class="percent"></span>
+              <div class="chart-text">
+                <span>Revisión y publicación editorial</span>
               </div>
             </div>
           </div>
@@ -173,12 +273,13 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 ml-auto mr-auto">
-        <div class="h4 text-center mb-4 title">Portfolio</div>
+        <div class="h4 text-center mb-4 title">Portafolio</div>
         <div class="nav-align-center">
           <ul class="nav nav-pills nav-pills-primary" role="tablist">
-            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
+            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#Book" role="tablist"><i class="fa fa-book" aria-hidden="true"></i></a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
             <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i class="fa fa-camera" aria-hidden="true"></i></a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i class="fa fa-play" aria-hidden="true"></i></a></li>
           </ul>
         </div>
       </div>
@@ -460,7 +561,7 @@
   </div>
 </div>
 <div class="section" id="contact">
-  <div class="cc-contact-information" style="background-image: url('images/staticmap.png');">
+  <div class="cc-contact-information" style="background-position: center;background-image: url('images/mapimage.jpg');">
     <div class="container">
       <div class="cc-contact">
         <div class="row">
@@ -470,39 +571,24 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="card-body">
-                    <form action="https://formspree.io/your@email.com" method="POST">
-                      <div class="p pb-3"><strong>Feel free to contact me </strong></div>
+                    <form method="POST">
                       <div class="row mb-3">
                         <div class="col">
                           <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
-                            <input class="form-control" type="text" name="name" placeholder="Name" required="required"/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
-                            <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required"/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                            <input class="form-control" type="email" name="_replyto" placeholder="E-mail" required="required"/>
+                            <input class="form-control" type="text" name="name" id="name" placeholder="Nombre" required="required"/>
                           </div>
                         </div>
                       </div>
                       <div class="row mb-3">
                         <div class="col">
                           <div class="form-group">
-                            <textarea class="form-control" name="message" placeholder="Your Message" required="required"></textarea>
+                            <textarea class="form-control" name="message" id="message" placeholder="Mensaje" required="required"></textarea>
                           </div>
                         </div>
                       </div>
                       <div class="row">
                         <div class="col">
-                          <button class="btn btn-primary" type="submit">Send</button>
+                          <button class="btn btn-primary" type="button" id="SendEmail">Contactar</button>
                         </div>
                       </div>
                     </form>
@@ -510,12 +596,12 @@
                 </div>
                 <div class="col-md-6">
                   <div class="card-body">
-                    <p class="mb-0"><strong>Address </strong></p>
-                    <p class="pb-2">140, City Center, New York, U.S.A</p>
-                    <p class="mb-0"><strong>Phone</strong></p>
-                    <p class="pb-2">+1718-111-0011</p>
-                    <p class="mb-0"><strong>Email</strong></p>
-                    <p>anthony@company.com</p>
+                    <p class="mb-0"><strong>Locación</strong></p>
+                    <p class="pb-2">Morelia, Michoacán</p>
+                    <p class="mb-0"><strong>Celular</strong></p>
+                    <p class="pb-2"><a href="tel:4434694110" target="_blank">443 469 4110</a></p>
+                    <p class="mb-0"><strong>Correo</strong></p>
+                    <p><a href="mailto:dialok@hotmail.com" target="_blank">dialok@hotmail.com</a></p>
                   </div>
                 </div>
               </div>
@@ -529,16 +615,16 @@
     </div>
     <footer class="footer">
       <div class="container text-center">
-        <a class="cc-facebook btn btn-link" href="#">
+        <a class="cc-facebook btn btn-link" href="https://www.facebook.com/zaira.figueroa.12">
           <i class="fa fa-facebook fa-2x " aria-hidden="true"></i>
         </a>
-        <a class="cc-instagram btn btn-link" href="#">
+        <a class="cc-instagram btn btn-link" href="https://instagram.com/dialok">
           <i class="fa fa-instagram fa-2x " aria-hidden="true"></i>
         </a>
         <a class="cc-linkedin btn btn-link " href="#">
           <i class="fa fa-linkedin fa-2x " aria-hidden="true"></i>
         </a>
-        <a class="cc-whatsapp btn btn-link" href="#">
+        <a class="cc-whatsapp btn btn-link" href="https://wa.me/4434694110">
           <i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
         </a>
       </div>
@@ -552,6 +638,8 @@
     <script src="js/core/bootstrap.min.js"></script>
     <script src="js/now-ui-kit.js?v=1.1.0"></script>
     <script src="js/aos.js"></script>
+    <script src="js/jquery.inview.min.js"></script> 
+    <script src="js/jquery.easypiechart.js"></script>
     <script src="scripts/main.js"></script>
   </body>
 </html>
