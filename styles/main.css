@@ -7334,3 +7334,69 @@ a.credit {
       margin-left: 8.33333333%;
   }
 }
+
+#pf-gd-fondo{
+  width: 100%;
+  align-self: center;
+}
+
+#pf-gd-triptico{
+  position: absolute;
+  width: 17%;
+  margin-top: 5%;
+  margin-left: 80%;
+  filter: drop-shadow(7px 7px 7px #010101);
+  -webkit-filter: drop-shadow(7px 7px 7px #010101);
+}
+
+#pf-gd-triptico2{
+  position: absolute;
+  width: 70%;
+  margin-top: 5%;
+  margin-left: 5%;
+  filter: drop-shadow(7px 7px 7px #010101);
+  -webkit-filter: drop-shadow(7px 7px 7px #010101);
+}
+
+#pf-gd-planta{
+  position: absolute;
+  width: 35%;
+  margin-left: 42%;
+}
+
+#pf-gd-banner{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/FLYERS/FONDO-1.jpg");
+  text-align: center;
+  color: white;
+  box-sizing: border-box;
+  padding: 1rem;
+  height: 10rem;
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+#pf-gd-banner h1 {
+  position: relative;
+  z-index: 10;
+  text-decoration: none;
+  color: #FFFFFF;
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.wave-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
