@@ -52,7 +52,7 @@ jQuery(function ($) {
             //your configuration goes here
             easing: 'easeOut',
             delay: 3000,
-            barColor:'#f48fb1',
+            barColor:'#ab47bc',
             trackColor:'rgba(255,255,255,0.2)',
             scaleColor: false,
             lineWidth: 8,
