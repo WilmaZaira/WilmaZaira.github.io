@@ -7718,9 +7718,10 @@ a.credit {
   left: 0;
   position: absolute;
   top: 0;
+  box-shadow:0 5px 5px 1px rgba(0,0,0,0.3);
 }
 .image-container .image img:nth-of-type(1) {
-  filter: grayscale(1) brightness(40%);
+  filter: grayscale(0) brightness(100%);
 }
 .image-container .image img:nth-of-type(2) {
   -webkit-clip-path: var(--clip-start);
