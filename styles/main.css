@@ -8422,6 +8422,7 @@ transitions
   top: 8%;
   left: 4%;
   width: 92%;
+  height: 300px;
   border-radius: 6px;
   backface-visibility: hidden;
   transform: translate3d(0, 0, 1px);
@@ -8437,6 +8438,9 @@ transitions
 }
 
 @media (max-width: 768px) {
+  .laptop-browser-container {
+    height: 150px;
+  }
   .laptop-browser-slide-photo {
     height: 150px;
   }
