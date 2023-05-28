@@ -8439,10 +8439,10 @@ transitions
 
 @media (max-width: 768px) {
   .laptop-browser-container {
-    height: 150px;
+    height: 165px;
   }
   .laptop-browser-slide-photo {
-    height: 150px;
+    height: 165px;
   }
 }
 .laptop-browser-slide-photo:nth-child(1) {
