@@ -8190,3 +8190,40 @@ transitions
   -webkit-filter: drop-shadow(7px 7px 7px #010101);
   z-index: 4;
 }
+
+@media (max-width: 768px) {
+  .terre h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  #pf-br-01{
+    width: 40%;
+    margin-top: 15%;
+    margin-left: 68%;
+  }
+  #pf-br-02{
+    width: 35%;
+    margin-top: 2%;
+    margin-left: 45%;
+  }
+  #pf-br-03{
+    width: 40%;
+    margin-top: 2%;
+    margin-left: 10%;
+  }
+  #pf-br-04{
+    width: 25%;
+    margin-top: 48%;
+    margin-left: 2%;
+  }
+  #pf-br-05{
+    width: 60%;
+    margin-top: 64%;
+    margin-left: 0%;
+  }
+  #pf-br-06{
+    width: 37%;
+    margin-top: 42%;
+    margin-left: 45%;
+  }  
+}
