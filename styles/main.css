@@ -8227,3 +8227,240 @@ transitions
     margin-left: 45%;
   }  
 }
+
+/*Web design portfolio*/
+
+/* The browser window */
+.browser-container {
+  border: 3px solid #f1f1f1;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background:#fff;
+}
+
+/* Container for columns and the top "toolbar" */
+.browser-row {
+  padding: 10px;
+  background: #f1f1f1;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* Create three unequal columns that floats next to each other */
+.browser-column {
+  float: left;
+}
+
+.browser-left {
+  width: 15%;
+}
+
+.browser-right {
+  width: 10%;
+}
+
+.browser-middle {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.browser-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Three dots */
+.browser-dot {
+  margin-top: 4px;
+  height: 12px;
+  width: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Style the input field */
+.browser-input[type=text] {
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  background-color: white;
+  margin-top: -8px;
+  height: 25px;
+  color: #666;
+  padding: 5px;
+}
+
+/* Three bars (hamburger menu) */
+.browser-bar {
+  width: 17px;
+  height: 3px;
+  background-color: #aaa;
+  margin: 3px 0;
+  display: block;
+}
+
+/* Page content */
+.browser-content {
+  padding: 0px;
+}
+
+/* Web-design slideshows */
+
+.browser-slide-container {
+  margin: 0px auto;
+  width: 100%;
+  height: 405px;
+  overflow: hidden;
+  position: relative;
+}
+
+.browser-slide-photo {
+  position: absolute;
+  object-fit: cover;
+  height: 405px;
+  animation: round 16s infinite;
+  opacity: 0;
+}
+
+@keyframes round {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+
+.browser-slide-photo:nth-child(1) {
+  animation-delay: 12s;
+}
+
+.browser-slide-photo:nth-child(2) {
+  animation-delay: 8s;
+}
+
+.browser-slide-photo:nth-child(3) {
+  animation-delay: 4s;
+}
+
+.browser-slide-photo:nth-child(4) {
+  animation-delay: 0s;
+}
+
+/* web design laptop*/
+
+.laptop-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.mockup {
+  display: inline-block;
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  font-size: 0;
+  perspective: 2400px;
+  perspective-origin: 50% 100%;
+  opacity: 0;
+  transition: 500ms opacity;
+}
+
+.mockup.loaded {
+  opacity: 1;
+}
+
+.mockup .part .top,
+.mockup .part .bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mockup .part.top {
+  transform: translate3d(0, 0, 0) rotateX(-90deg);
+}
+
+.mockup:hover .part.top {
+  transform: translate3d(0, 0, 0) rotateX(0deg);
+}
+
+.mockup .part {
+  display: inline-block;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  transform-origin: 50% 100%;
+  transition: 900ms;
+}
+
+.mockup.opened .part .top {
+  transform: translate3d(0, 0, -11px) rotateX(90deg) scale(1, 1);
+}
+
+.mockup .part .top {
+  transform-origin: 50% 0;
+  transform: translate3d(0, 0, -11px) rotateX(90deg);
+  transition: 900ms;
+}
+
+.mockup img {
+  display: block;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.mockup .part .cover {
+  position: relative;
+}
+
+.mockup video, .laptop-browser-container {
+  display: block;
+  position: absolute;
+  top: 8%;
+  left: 4%;
+  width: 92%;
+  border-radius: 6px;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 1px);
+}
+
+.laptop-browser-slide-photo {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 280px;
+  animation: round 16s infinite;
+  opacity: 0;
+}
+
+.laptop-browser-slide-photo:nth-child(1) {
+  animation-delay: 12s;
+}
+
+.laptop-browser-slide-photo:nth-child(2) {
+  animation-delay: 8s;
+}
+
+.laptop-browser-slide-photo:nth-child(3) {
+  animation-delay: 4s;
+}
+
+.laptop-browser-slide-photo:nth-child(4) {
+  animation-delay: 0s;
+}
+
+
+.mockup .part.bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate3d(0, 0, 0) rotateX(-90deg);
+}
+
+.mockup .part .bottom {
+    transform-origin: 50% 0;
+    transform: translate3d(0,0,0) rotateX(90deg);
+}
