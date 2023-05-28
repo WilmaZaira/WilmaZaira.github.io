@@ -8438,7 +8438,7 @@ transitions
 
 @media (max-width: 768px) {
   .laptop-browser-slide-photo {
-    height: 245px;
+    height: 150px;
   }
 }
 .laptop-browser-slide-photo:nth-child(1) {
