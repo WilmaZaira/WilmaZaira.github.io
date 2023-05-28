@@ -7886,7 +7886,7 @@ transitions
 /* Branding styles */
 
 .ciel, .soleil, .lune, .terre, .etoile span{
-  animation-duration:20s;
+  animation-duration:40s;
   animation-iteration-count: infinite;
   animation-timing-function:linear;
 }
