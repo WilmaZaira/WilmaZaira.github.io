@@ -8518,6 +8518,7 @@ transitions
     
     #google_translate_element > div > span > a{
         font-size: 8px;
+        color: #898989;
     }
     
     #google_translate_element > div > div > select {
