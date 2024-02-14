@@ -8478,15 +8478,16 @@ transitions
     box-sizing: border-box;
 }
 .navbar-nav > li > .apto-dropdown-wrapper > span {
-  padding: 15px 10px 12px 10px;
+  padding: 5px 10px 2px 10px;
   border-top: 6px solid transparent;
   position: absolute;
   cursor: pointer;
 }
 .navbar-nav > li > .apto-dropdown-wrapper > span > img {
-  position: relative;
-  height: 33px;
-  width: 33px;
+  display: block;
+  position: absolute;
+  height: 25px;
+  width: 25px;
 }
 
 /* Lang */
@@ -8511,6 +8512,10 @@ transitions
         display: block;
     }
     
+    #google_translate_element > div > div{
+        display: block;
+    }
+    
     #google_translate_element > div > span > a{
         font-size: 8px;
     }
@@ -8522,8 +8527,8 @@ transitions
         outline: 0;
         font: inherit;
         /* Personalize */
-        width: 20rem;
-        padding: 1rem 4rem 1rem 1rem;
+        width: 12rem;
+        padding: 1rem 1rem 1rem 1rem;
         background: var(--arrow-icon) no-repeat right 0.8em center / 1.4em,
           linear-gradient(to left, var(--arrow-bg) 3em, var(--select-bg) 3em);
         color: #80aaff;
