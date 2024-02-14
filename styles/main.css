@@ -8513,7 +8513,7 @@ transitions
     }
     
     #google_translate_element > div > div{
-        display: block;
+        display: block !important;
     }
     
     #google_translate_element > div > span > a{
