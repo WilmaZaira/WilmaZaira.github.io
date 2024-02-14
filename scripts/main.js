@@ -112,3 +112,18 @@ function reorder(targetEl, els) {
     }
   }
 }
+
+$(document).ready(function() {
+    $('body').on('click','.apto-trigger-dropdown', function(e){
+        e.stopPropagation();
+        if($(this).closest('.apto-dropdown-wrapper').find('.dropdown-menu').hasClass('show')){
+            $(this).closest('.apto-dropdown-wrapper').find('.dropdown-menu').removeClass('show');
+        }else{
+            $(this).closest('.apto-dropdown-wrapper').find('.dropdown-menu').addClass('show');
+        }
+    });
+    $('body').on('change','.goog-te-combo', function(e){
+        $(this).closest('.apto-dropdown-wrapper').find('.dropdown-menu').removeClass('show');
+    });
+    
+});

@@ -8473,3 +8473,105 @@ transitions
     transform-origin: 50% 0;
     transform: translate3d(0,0,0) rotateX(90deg);
 }
+
+.navbar-nav > li > .apto-dropdown-wrapper{
+    box-sizing: border-box;
+}
+.navbar-nav > li > .apto-dropdown-wrapper > span {
+  padding: 15px 10px 12px 10px;
+  border-top: 6px solid transparent;
+  position: absolute;
+  cursor: pointer;
+}
+.navbar-nav > li > .apto-dropdown-wrapper > span > img {
+  position: relative;
+  height: 33px;
+  width: 33px;
+}
+
+/* Lang */
+.apto-dropdown-wrapper .dropdown-menu {
+    width: 220px;
+    border: #fff;
+    padding: 8px;
+    display:none;
+    z-index: 2;
+    position: absolute;
+    float: left;
+    left: -130px;
+    top: 70px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    }
+    
+    .apto-dropdown-wrapper .dropdown-menu.show {
+    display:block;
+    }
+    
+    #google_translate_element > div > span{
+        display: block;
+    }
+    
+    #google_translate_element > div > span > a{
+        font-size: 8px;
+    }
+    
+    #google_translate_element > div > div > select {
+        /* Reset */
+        appearance: none;
+        border: 0;
+        outline: 0;
+        font: inherit;
+        /* Personalize */
+        width: 20rem;
+        padding: 1rem 4rem 1rem 1rem;
+        background: var(--arrow-icon) no-repeat right 0.8em center / 1.4em,
+          linear-gradient(to left, var(--arrow-bg) 3em, var(--select-bg) 3em);
+        color: #80aaff;
+        font-size: 14px;
+        border-radius: 0.25em;
+        box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        /* Remove IE arrow */
+        &::-ms-expand {
+          display: none;
+        }
+        /* Remove focus outline */
+        &:focus {
+          outline: none;
+        }
+        /* <option> colors */
+        option {
+          color: inherit;
+          background-color: var(--option-bg);
+        }
+      }
+    
+    body{
+        top: 0px !important;
+    }
+    body > .skiptranslate{
+      z-index: 300;
+      float: right;
+      right: 0px;
+      position: absolute;
+    }
+    
+    body > .skiptranslate > iframe{
+        float: left;
+        left:60%;
+        top: calc( 100% - 40px );
+        height: 39px;
+        width: 40%;
+        z-index: 10000001;
+        position: fixed;
+        border: none;
+        margin: 0;
+        box-shadow: 0 0 3px 1px #999;
+    }
+    
+    body > .skiptranslate > iframe document html body{
+        margin: 0;
+        background-color: #fff;
+        overflow: hidden;
+        background-image: none;
+    }
